@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>КиноПоиск API</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <form id="searchForm">
+    <input type="text" id="searchInput" placeholder="Поиск по названию" />
+    <button type="submit">Искать</button>
+  </form>
+  <form id="premiereForm">
+    <input type="text" id="yearInput" placeholder="Введите год" />
+    <select id="monthSelect">
+      <option value="JANUARY">Январь</option>
+      <option value="FEBRUARY">Февраль</option>
+      <option value="MARCH">Март</option>
+      <option value="APRIL">Апрель</option>
+      <option value="MAY">Май</option>
+      <option value="JUNE">Июнь</option>
+      <option value="JULY">Июль</option>
+      <option value="AUGUST">Август</option>
+      <option value="SEPTEMBER">Сентябрь</option>
+      <option value="OCTOBER">Октябрь</option>
+      <option value="NOVEMBER">Ноябрь</option>
+      <option value="DECEMBER">Декабрь</option>
+    </select>
+    <button type="submit">Показать премьеры</button>
+  </form>
+  <div id="output"></div>
+  <div id="filmDetails"></div>
+  <script src="./script/index.js"></script>
+</body>
+</html>
